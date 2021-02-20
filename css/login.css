@@ -1,0 +1,31 @@
+.bg-cover {
+    background-image: url("../images/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.form-signin{
+    background-color: aqua;
+   padding: 20px;
+   text-align: center; 
+   border-radius: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+.carousel-inner .item a img{
+    max-width: 500px;
+    max-height: 200px;
+    margin: auto;
+
+}
