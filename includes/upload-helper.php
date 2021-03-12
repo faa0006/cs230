@@ -8,7 +8,7 @@ if (isset($POST['prof-submit'])){
 
 $uname = $_SESSION['uname'];
 $file = $_FILES['prof-images'];
-$file_name = $['name'];
+$file_name = ['uname'];
 $file_tmp_name = $file['tmp_name'];
 $file_error = $file['error'];
 $file_size = $file['size'];

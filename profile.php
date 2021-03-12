@@ -29,7 +29,7 @@ if (isset($_SESSION['uid'])) {
     $res = mysqli_query($conn, $sqlpro);
     $row = mysqli_fetch_array($res);
     $photo = $row['profpic']; //path to the profile 
-
+    
     ?>
     <div class="h-50 center-me text-center">
         <div class="my-auto">
@@ -50,5 +50,7 @@ if (isset($_SESSION['uid'])) {
             </form>
             </div>
          </div>
-            }
+         <?php
+         }
+         ?>
             </main>
