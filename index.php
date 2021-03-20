@@ -3,7 +3,7 @@ require 'includes/header.php';
 ?>
 
 <main>
-<link re="stylesheet" href="css/about.css"
+<link re="stylesheet" href="css/about.css">
 
 <div class = "about">
 <h1>About Us</h1>

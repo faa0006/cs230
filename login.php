@@ -1,8 +1,10 @@
 <?php
-require "includes/header.php";
+require 'includes/header.php';
 ?>
+
 <main>
     <link rel="stylesheet" href="css/login.css">
+
     <div class="bg-cover">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -10,16 +12,20 @@ require "includes/header.php";
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block mx-auto" src="images/c1.jpg" alt="First slide">
+                        <img class="d-block mx-auto" src="images/c1.png" alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block mx-auto" src="images/c2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block mx-auto" src="images/c3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" src="images/c1.png" alt="First slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -34,31 +40,28 @@ require "includes/header.php";
         </div>
         <div class="h-40 center-me">
             <div class="my-auto">
-
-
                 <form class="form-signin" action="includes/login-helper.php" method="post">
-
-                    <h2>login</h2>
-                    <p class="hint-text">please login</p>
+                    <h2>Login</h2>
+                    <p class="hint-text">Login sucka</p>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" name="uname-email" placeholder="Username / Email"
+                        <input type="text" class="form-control" name="uname-email" placeholder="Username/ Email"
                             required="required">
                     </div>
                     <div class="form-group">
-                        <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
+                        <input type="password" class="form-control" name="pwd" placeholder="Password"
                             required="required">
                     </div>
-
                     <div class="form-group">
-                        <button type="submit" name="login-submit" class=" btn btn-lg btn-outline-danger btn-block"> login</button>
-                            </div> 
+                        <button type="submit" name="login-submit"
+                            class="btn btn-outline-success btn-lg btn-block">Login</button>
+                    </div>
                 </form>
 
+
             </div>
-
         </div>
 
-        </div>
+    </div>
 
 </main>
